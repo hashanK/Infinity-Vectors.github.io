@@ -1,0 +1,76 @@
+.logo-txt{
+    font-family: 'Agency FB', arial;
+    text-transform: uppercase;
+    font-size: 5em;
+}
+
+.block-txt{
+    font-family: 'Agency FB', arial;
+    text-transform: uppercase;
+    font-size: 5em;
+}
+
+.block-txt-logo{
+    font-family: 'Agency FB', arial;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+.block-txt-btm{
+    font-family: 'Agency FB', arial;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+.block-txt-color{
+    font-family: 'Agency FB', arial;
+    text-transform: uppercase;
+    font-size: 8em;
+    color: #f12711;
+}
+
+/* Shrink */
+.hvr-shrink {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .hvr-shrink:hover, .hvr-shrink:focus, .hvr-shrink:active {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+/* .section {
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); 
+}   */
+
+.section:nth-of-type(2) {
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%); 
+}
+
+.section:nth-of-type(3) {
+    background: #f12711;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+}
+
+.swiper-container {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+  }
+
+.social-icons img{
+    width: 64px;
+}
+
+.list-group-item {
+    border: none;
+}
+
